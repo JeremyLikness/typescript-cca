@@ -1,0 +1,30 @@
+{
+  "name": "typescript-cca",
+  "version": "1.0.0",
+  "description": "A hands-on demonstration of TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "tsc:es6": "tsc -p tsconfig.es6.json",
+    "start": "npm run tsc:w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeremyLikness/typescript-cca.git"
+  },
+  "keywords": [
+    "typescript",
+    "javascript"
+  ],
+  "author": "Jeremy Likness",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JeremyLikness/typescript-cca/issues"
+  },
+  "homepage": "https://github.com/JeremyLikness/typescript-cca#readme",
+  "dependencies": {
+    "typescript": "^2.2.1"
+  }
+}

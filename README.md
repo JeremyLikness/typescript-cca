@@ -17,3 +17,5 @@ This presentation was created and presented by [@JeremyLikness](https://twitter.
 4. Examine the JavaScript output 
 
 5. Run an example: `node examples/001-types` 
+
+6. Compare the difference with ECMAScript 2017: `npm run-script tsc:es6` 
